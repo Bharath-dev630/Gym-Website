@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/images/logo1.png" type="image/x-icon">
+  <title>Gym Registration | B-FitZone</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: linear-gradient(to right, #0a0a0a, #1a1a1a);
+      color: #fff;
+      background-image: url(/images/18th.jpeg);
+    }
+    .navbar {
+    min-height: 55px;
+    background: rgba(13, 110, 253, 0.97) !important;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  }
+  .logo {
+    width: 50px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 50px;
+  }
+  .navbar-nav {
+    gap: 5px;
+  }
+  .nav-item {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .nav-link {
+    color: #ffffff !important;
+    padding: 10px 14px !important;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  .nav-link:hover,.nav-link.active {
+    background-color: #000000;
+    color: #ffffff !important;
+  }
+  .dropdown-menu {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  }
+  .dropdown-item {
+    padding: 10px 18px;
+    font-weight: 500;
+  }
+  .dropdown-item:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+/* Join Button */
+
+  .join-btn {
+    display: inline-block;
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  .join-btn:hover {
+    background-color: #a71d2a;
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+    .container1{
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif; 
+      min-height: 40vh 
+    }
+    .register-card {
+      background: #1e1e1e;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      padding: 40px 30px;
+      width: 100%;
+      max-width: 500px;
+    }
+    .register-card h3 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 25px;
+      color: #f8f9fa;
+    }
+    .form-control {
+      background: #2a2a2a;
+      border: 1px solid #444;
+      color: #fff;
+    }
+    .form-control:focus {
+      background: #2a2a2a;
+      color: #fff;
+      border-color: #ff4757;
+      box-shadow: none;
+    }
+    .btn-register {
+      background: #ff4757;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px;
+      width: 100%;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .btn-register:hover {
+      background: #e84118;
+    }
+    .text-link a {
+      color: #ff4757;
+      text-decoration: none;
+    }
+    .text-link a:hover {
+      text-decoration: underline;
+    }
+    @media (min-width:300px) and (max-width: 576px) {
+      .register-card {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+ 
+<!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container"><a class="navbar-brand" href="index.html">
+    <img src="/images/logo1.png" class="logo" alt="B-Fit Gym Logo"> </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto align-items-lg-center"><li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="about_us.html">About Us</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="branches.html" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false"> Branches </a>
+        <ul class="dropdown-menu">
+          <li> <a class="dropdown-item" href="branches.html"> Hyderabad </a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">Gallery</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="gallaryimages.html"> Images </a></li>
+          <li> <a class="dropdown-item" href="gallaryimages.html"> Videos </a></li>
+        </ul>
+      </li>
+      <li class="nav-item"> <a class="nav-link" href="membership.html">Membership</a></li>
+      <li class="nav-item"> <a class="nav-link" href="freepass.html">Free Pass</a></li>
+      <li class="nav-item ms-lg-3 mt-2 mt-lg-0"><a href="login.html" class="join-btn">
+          Join Today</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+<div class="container1 pt-5 pb-5 mt-5" style="display: flex;">
+  <div class="register-card">
+    <h3><i class="bi bi-person-plus-fill me-2"></i>Join FitZone Gym</h3>
+
+  <form id="registerForm" action="https://formspree.io/f/xyezkjla" method="POST">
+  <div class="mb-3">
+    <label for="fullname" class="form-label">Full Name</label>
+    <input type="text" class="form-control" name="name" id="fullname"
+           placeholder="Enter your full name" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" class="form-control" name="email" id="email"
+           placeholder="Enter your email" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="phone" class="form-label">Phone Number</label>
+    <input type="tel" class="form-control" name="mobile" id="phone"
+           placeholder="Enter your phone number" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="gender" class="form-label">Gender</label>
+    <select id="gender"  name="gender"  class="form-control"  required>
+      <option value="">Select</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <label for="membership" class="form-label">Membership Type</label>
+    <select id="membership"  name="membership"  class="form-control" required>
+      <option value="">Select Plan</option>
+      <option value="Monthly">Monthly</option>
+      <option value="Quarterly">Quarterly</option>
+      <option value="Yearly">Yearly</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <label for="password" class="form-label">Create Password</label>
+    <input type="password" class="form-control" id="password"
+           placeholder="Enter password" required> 
+  </div>
+<!-- name="createcode" -->
+  <div class="mb-3">
+    <label for="confirmPassword" class="form-label">Confirm Password</label>
+    <input type="password" class="form-control" id="confirmPassword" placeholder="Re-enter password" required> </div>
+<!-- name="confirmcode" -->
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" name="agree" id="terms" required>
+    <label class="form-check-label" for="terms">
+      I agree to the <a href="#">terms & conditions</a>
+    </label>
+  </div>
+
+  <button type="submit" class="btn-register"> Register </button>
+  <div id="formErrors" class="alert alert-danger mt-3" style="display:none;"> </div>
+  <div class="text-center mt-3 text-link">
+    <p>Already have an account?<a href="login.html">Login here</a></p>
+  </div>
+</form>
+  </div>
+<!-- Terms & Conditions Modal -->
+<div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="termsModalLabel">B-FitZone Gym — Terms & Conditions</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Sample Terms & Conditions content -->
+        <h6>1. Membership & Payment</h6>
+        <p>Membership fees must be paid in full before services start. Memberships are non-transferable. Renewal occurs only after explicit payment or plan selection.</p>
+
+        <h6>2. Freezes & Cancellations</h6>
+        <p>Members may request a temporary freeze (maximum 3 months per year) with prior notice. Cancellation policies and refunds depend on the chosen plan — contact the front desk for details.</p>
+
+        <h6>3. Health & Safety</h6>
+        <p>Members declare they are physically fit for exercise. Consult a doctor before starting if you have any medical conditions. The gym is not liable for injuries caused by neglecting trainer instructions or misusing equipment.</p>
+
+        <h6>4. Code of Conduct</h6>
+        <p>Respect staff and fellow members. No abusive language, intimidation, or vandalism. The gym reserves the right to terminate membership for misconduct without refund.</p>
+
+        <h6>5. Use of Facilities</h6>
+        <p>Use equipment as instructed and follow posted guidelines. Return equipment and clean sweat from machines after use.</p>
+
+        <h6>6. Personal Belongings</h6>
+        <p>The gym is not responsible for lost or stolen items. Use lockers and secure valuables.</p>
+
+        <h6>7. Photos & Media</h6>
+        <p>The gym may take photos or videos for marketing. If you do not wish to be photographed, notify staff in writing.</p>
+
+        <h6>8. Liability Waiver</h6>
+        <p>By registering you waive claims against the gym for damages arising from ordinary negligence, except where prohibited by law.</p>
+
+        <h6>9. Data & Privacy</h6>
+        <p>We collect basic contact and health-related information for membership administration. Data will be stored per our privacy policy and not shared without consent unless required by law.</p>
+
+        <h6>10. Changes to Terms</h6>
+        <p>The gym may update terms with notice. Continued use after changes constitutes acceptance.</p>
+
+        <hr>
+        <p class="small">By checking "I agree" you confirm that you have read, understood, and accepted these Terms & Conditions.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("registerForm");
+    const password = document.getElementById("password");
+    const confirmPassword = document.getElementById("confirmPassword");
+    const termsCheckbox = document.getElementById("terms");
+    const errorsDiv = document.getElementById("formErrors");
+    if (!form) {
+        console.error("Registration form not found.");
+        return;
+    }
+    function showMessage(message, type) {
+        errorsDiv.style.display = "block";
+        errorsDiv.className = "alert mt-3 alert-" + type;
+        errorsDiv.innerText = message;
+    }
+    form.addEventListener("submit", async function (e) {
+        // Stop normal Formspree redirect
+        e.preventDefault();
+        // Clear previous message
+        errorsDiv.style.display = "none";
+        // Check password
+        if (password.value !== confirmPassword.value) {
+            showMessage("Passwords do not match. Please re-enter.","danger");
+            confirmPassword.focus();
+            return;
+        }
+        // Check Terms
+        if (!termsCheckbox.checked) {
+            showMessage("You must agree to the Terms & Conditions to register.","danger");
+            termsCheckbox.focus();
+            return;
+        }
+        // Disable button while submitting
+        const submitButton = form.querySelector("button[type='submit']");
+        submitButton.disabled = true;
+        submitButton.innerText = "Registering...";
+        try {
+            // Send form data to Formspree
+            const response = await fetch(form.action, {
+                method: "POST",
+                body: new FormData(form),
+                headers: {
+                    "Accept": "application/json"
+                }
+            });
+            if (response.ok) {
+                showMessage("Registration successful! Thank you for registering.","success");
+                // Reset form
+                form.reset();
+                // Remove password validation classes
+                confirmPassword.classList.remove("is-valid","is-invalid");
+            } else {
+                const data = await response.json();
+                if (data.errors) {
+                    showMessage(data.errors.map(error => error.message).join(", "),"danger");
+                } else {
+                    showMessage("Something went wrong. Please try again.","danger");
+                }
+            }
+        } catch (error) {
+            console.error("Form submission error:", error);
+            showMessage("Unable to submit the form. Please check your internet connection and try again.","danger");
+        } finally {
+            // Enable button again
+            submitButton.disabled = false;
+            submitButton.innerText = "Register";
+        }
+    });
+
+    // Password match indicator
+    confirmPassword.addEventListener("input", function () {
+        if (confirmPassword.value.length === 0) {
+            confirmPassword.classList.remove("is-valid","is-invalid");
+            return;
+        }
+        if (password.value === confirmPassword.value) {
+            confirmPassword.classList.add("is-valid");
+            confirmPassword.classList.remove("is-invalid");
+        } else {
+            confirmPassword.classList.add("is-invalid");
+            confirmPassword.classList.remove("is-valid");
+        }
+    });
+});
+</script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

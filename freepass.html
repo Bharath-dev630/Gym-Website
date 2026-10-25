@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/logo1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Free Pass | B-Fit Gym</title>
+    <style>
+    body {
+      background-color: #121212;
+      color: #fff;
+    }
+   
+    /* ========= NAVBAR ======== */
+.navbar {
+    min-height: 55px;
+    background: rgba(13, 110, 253, 0.97) !important;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+}
+.logo {
+    width: 50px;
+    height: 45px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+.navbar-nav {
+    gap: 5px;
+}
+.nav-item {
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-link {
+    color: #ffffff !important;
+    padding: 10px 14px !important;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.nav-link:hover,.nav-link.active {
+    background-color: #000000;
+    color: #ffffff !important;
+}
+.dropdown-menu {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+.dropdown-item {
+    padding: 10px 18px;
+    font-weight: 500;
+}
+.dropdown-item:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+/* Join Button */
+
+.join-btn {
+    display: inline-block;
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.join-btn:hover {
+    background-color: #a71d2a;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+.container1{
+  top: 50px;
+}
+footer {
+    background-color: #111;
+    color: #ddd;
+  }
+    </style>
+</head>
+<body>
+    <!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container"><a class="navbar-brand" href="index.html">
+    <img src="/images/logo1.png" class="logo" alt="B-Fit Gym Logo"> </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto align-items-lg-center"><li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="about_us.html">About Us</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="branches.html" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false"> Branches </a>
+        <ul class="dropdown-menu">
+          <li> <a class="dropdown-item" href="branches.html"> Hyderabad </a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">Gallery</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="gallaryimages.html"> Images </a></li>
+          <li> <a class="dropdown-item" href="gallaryimages.html"> Videos </a></li>
+        </ul>
+      </li>
+      <li class="nav-item"> <a class="nav-link" href="membership.html">Membership</a></li>
+      <li class="nav-item"> <a class="nav-link active" href="freepass.html">Free Pass</a></li>
+      <li class="nav-item ms-lg-3 mt-2 mt-lg-0"><a href="login.html" class="join-btn">
+          Join Today</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<!-- Free One Day Pass Section -->
+<section class="container1 py-5 bg-dark">
+  <div class="container text-center pb-5 pt-5">
+    <h2 class="fw-bold mb-3">Free One-Day Pass</h2>
+    <p class="text-muted mb-4">
+      Try our gym for a full day – absolutely free! Experience the equipment, environment, and energy before joining.
+    </p>
+
+    <!-- Buttons -->
+    <button class="btn btn-danger px-4 me-2" data-bs-toggle="modal" data-bs-target="#passRulesModal">
+      View Rules & Guidelines
+    </button>
+
+    <a href="registration.html" class="btn btn-success px-4">
+      Register Now
+    </a>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="passRulesModal" tabindex="-1" aria-labelledby="passRulesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header bg-dark text-red">
+        <h5 class="modal-title" id="passRulesModalLabel">Free One-Day Pass — Rules & Guidelines</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body bg-dark">
+        <ul>
+          <li>The one-day pass is valid for <strong>first-time visitors only</strong>.</li>
+          <li>A valid <strong>ID proof</strong> must be shown at the front desk.</li>
+          <li>The pass is valid only during <strong>regular operating hours</strong>.</li>
+          <li>Includes access to machines & cardio area (personal training not included).</li>
+          <li>Proper <strong>gym attire and shoes</strong> are required at all times.</li>
+          <li>Visitors must follow trainer instructions and use equipment responsibly.</li>
+          <li>Locker access available; gym is <strong>not responsible for lost items</strong>.</li>
+          <li>Signing a <strong>liability waiver</strong> is mandatory.</li>
+          <li>Group classes are not included unless permitted.</li>
+          <li>No photography or video recording inside the gym.</li>
+          <li>Pass cannot be transferred or clubbed with other offers.</li>
+          <li>Valid for individuals <strong>18+ only</strong>.</li>
+          <li>Management may deny entry for safety or misconduct.</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer Section -->
+  <footer class="pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold mb-3">B-Fit Gym</h5>
+          <p>Join us to transform your body and mind.</p>
+          <p><i class="bi bi-geo-alt-fill me-2"></i>123 Fitness Street, Hyderabad</p>
+          <p><i class="bi bi-telephone-fill me-2"></i>+91 6300098620</p>
+          <p><i class="bi bi-envelope-fill me-2"></i>nalamasabharath@gmail.com</p>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none d-block mb-1">Home</a></li>
+            <li><a href="about_us.html" class="text-light text-decoration-none d-block mb-1">About Us</a></li>
+            <li><a href="gallaryimages.html" class="text-light text-decoration-none d-block mb-1">Gallary</a></li>
+            <li><a href="#" class="text-light text-decoration-none d-block mb-1">Membership</a></li>
+            <li><a href="#" class="text-light text-decoration-none d-block mb-1">Trainers</a></li>
+            <li><a href="#" class="text-light text-decoration-none d-block mb-1">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold mb-3">Open Hours</h5>
+          <p>Mon – Sat: 5:00 AM – 10:00 PM</p>
+          <p>Sunday: 7:00 AM – 12:00 PM</p>
+        </div>
+
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold mb-3">Follow Us</h5>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light me-3 fs-5"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="text-light fs-5"><i class="bi bi-twitter-x"></i></a>
+        </div>
+
+      </div>
+      <hr class="border-secondary">
+      <div class="text-center">
+        <p class="mb-0">© 2025 FitZone Gym. All Rights Reserved.</p>
+        <p class="small mb-0">“Train Hard. Stay Strong. Live Fit.”</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
